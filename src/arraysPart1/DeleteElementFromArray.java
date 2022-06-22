@@ -4,7 +4,7 @@ public class DeleteElementFromArray {
 
 	public static void main(String[] args) {
 		int[] arr = {1,5,12,9,45,8};
-		deleteElement(arr,9);
+		deleteElement(arr,1);
 		for(int e : arr) {
 			System.out.print(e+" ");
 		}
