@@ -2,6 +2,8 @@ package recurssionAndBacktracking;
 
 public class NumberOfPathsInAMatrix {
 	
+	// Time Complexity O(2^ (m*n))
+	
 	public static int findNumberOfPaths(int row,int column) {
 		if(row==1 || column ==1 ) return 1;
 		int rightSide = findNumberOfPaths(row, column-1);
